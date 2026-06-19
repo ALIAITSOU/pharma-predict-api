@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Generated data (regenerate via the pipeline scripts)
+data/processed/*.csv
+
+# Trained models (regenerate via src/models/train.py)
+models/*.pkl
+models/metadata.json
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
